@@ -1,10 +1,11 @@
-import { TasksProvider } from './context/TasksProvider'
+import TasksProvider from './context/TasksProvider'
+import Title from './components/Title'
 import './App.css'
 
 const App = () => {
   return (
     <TasksProvider>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Title/>
     </TasksProvider>
   )
 }
